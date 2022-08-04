@@ -53,7 +53,7 @@ const Post = ({postId, username, caption, imageUrl, user }) => {
         username: user.displayName,
         timestamp: serverTimestamp()
       });
-      setComments('');
+      setComment('');
   };
 
   return (
