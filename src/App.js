@@ -240,7 +240,7 @@ function App() {
         </div>
 
 
-        {user? (
+        {user?.displayName ? (
             <ImageUpload username={user.displayName} />
           ): (
             null
